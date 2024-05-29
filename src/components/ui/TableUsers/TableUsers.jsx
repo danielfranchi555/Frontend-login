@@ -47,7 +47,7 @@ const TableUsers = ({ users, handleEditUser, getUser }) => {
         <TableBody>
           {users.map((user, index) => (
             <TableRow key={index}>
-              <TableCell className="font-medium">{user.id}</TableCell>
+              <TableCell className="font-medium">{user.id_user}</TableCell>
               <TableCell>{user.name}</TableCell>
               <TableCell>{user.lastname}</TableCell>
               <TableCell>{user.email}</TableCell>
@@ -55,7 +55,7 @@ const TableUsers = ({ users, handleEditUser, getUser }) => {
                 <MdDelete
                   className="cursor-pointer"
                   size={20}
-                  onClick={() => deleteUser(user.id)}
+                  onClick={() => deleteUser(user.id_user)}
                 />
               </TableCell>
               <TableCell className="">
