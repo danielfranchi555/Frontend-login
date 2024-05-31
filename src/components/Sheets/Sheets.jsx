@@ -9,7 +9,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { useSelector } from "react-redux";
-import List from "../ListProducts/List";
+import List from "../ProductsCart/List";
 import Link from "next/link";
 
 const Sheets = () => {

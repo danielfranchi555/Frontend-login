@@ -80,4 +80,21 @@
     box-shadow: 0 -5px 10px -5px rgba(0, 0, 0, 0.5); /* Ajusta el shadow según tus necesidades */
   }
 
+  .icon-background-red {
+    position: relative;
+    width: 24px; /* ajusta el tamaño según sea necesario */
+    height: 24px; /* ajusta el tamaño según sea necesario */
+  }
+  
+  .icon-background-red::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    border-radius: 50%; /* opcional, si deseas que el fondo sea redondo */
+    z-index: -1;
+  }
   

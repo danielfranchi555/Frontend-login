@@ -13,7 +13,7 @@ const List = ({ products }) => {
     <ScrollArea className="h-[450px] md:h-[530px] w-full rounded-md flex flex-col">
       {products.map((prod) => (
         <>
-          <div className="flex ">
+          <div className="flex  ">
             <div className=" h-auto">
               <Image
                 className="md:max-w[200px]  "
